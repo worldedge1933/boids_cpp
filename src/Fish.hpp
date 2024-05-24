@@ -2,26 +2,27 @@
 
 class Fish
 {
-	static double speed;
-	static double vision;
-	static double separation_force;
-	static double alignment_force;
-	static double cohesion_force;
-	static double collision_force;
+	static float speed;
+	static float vision;
+	static float separation_force;
+	static float alignment_force;
+	static float cohesion_force;
+	static float collision_force;
 
-	double pos_x;
-	double pos_y;
-	double max_speed;
-	double dir_x;
-	double dir_y;
-	double vel_x;
-	double vel_y;
-	double acc_x;
-	double acc_y;
+	float pos_x;
+	float pos_y;
+	float max_speed;
+	float dir_x;
+	float dir_y;
+	float vel_x;
+	float vel_y;
+	float acc_x;
+	float acc_y;
 
 public:
-	Fish(double pos_x, double pos_y, double dir_x, double dir_y);
-	Fish(float pos_x, double pos_y);
+	Fish(float pos_x, float pos_y, float dir_x, float dir_y);
+	Fish(float pos_x, float pos_y);
+    Fish();
 	~Fish();
 	void update();
 	void setSpeed(float s);

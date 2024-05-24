@@ -7,6 +7,7 @@ include_directories(./EasyX/include)
 link_directories(./EasyX/lib64)
 link_libraries(libeasyx.a)
 
-add_executable(boids_cpp src/main.cpp)
+add_executable(boids_cpp src/main.cpp
+        src/Fish.cpp)
 
 
