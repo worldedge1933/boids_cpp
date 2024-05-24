@@ -20,6 +20,15 @@ Fish::Fish(float pos_x, float pos_y, float dir_x, float dir_y) {
     this->vel_x = speed * dir_x / (sqrt(dir_x * dir_x + dir_y * dir_y));
     this->vel_y = speed * dir_y / (sqrt(dir_x * dir_x + dir_y * dir_y));
 
-
-
 }
+
+Fish::Fish(float pos_x, float pos_y) {
+}
+
+Fish::Fish() {
+}
+
+Fish::~Fish() {
+}
+
+
